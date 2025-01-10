@@ -1,0 +1,60 @@
+#pyramid_top {
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(3,100px);
+}
+
+.pyramid_color1 {
+    grid-column: 3 / 4;
+    background-color: blueviolet; 
+    border: 3px solid black;
+}
+.pyramid_color2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: yellow;
+    border: 3px solid black;
+}
+.pyramid_color2a {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-color: yellow;
+    border: 3px solid black;
+}
+.pyramid_color2b {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    background-color: yellow;
+    border: 3px solid black;
+}
+.pyramid_color3b {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    background-color: red;
+    border: 3px solid black;
+}
+.pyramid_color3c {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-color: red;
+    border: 3px solid black;
+}
+.pyramid_color3d {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: red;
+    border: 3px solid black;
+}
+.pyramid_color3e {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-color: red;
+    border: 3px solid black;
+}
+.pyramid_color3f {
+    grid-column: 0 / 1;
+    grid-row: 3 / 4;
+    background-color: red;
+    border: 3px solid black;
+}
+
