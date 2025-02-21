@@ -59,7 +59,7 @@ switch (atzīme) {
         console.log("JOPCIK! NU GAN TU NORAUSIES!");
 }
 */
-
+/*
 let currency = prompt("ieraksti naudu ar 3 lieliem burtiem bet nuu... lūdzu angļu eiropa vai asv naudu...")
 
 switch (currency) {
@@ -74,7 +74,7 @@ switch (currency) {
     default:
         console.log("eu nu.. es teicu tikai anglu, asv vai eiropas..")
 }
-
+*/
 
 
 
