@@ -1,12 +1,12 @@
 .active {
-    background-color: darkslategrey;
+    background-color: rgb(203, 168, 168);
     font-weight: bold;
 }
 
 #tasks_container {
 display: grid;
 grid-template-columns: 1fr 2fr 1fr;
-grid-template-rows: repeat(3, 150px);
+grid-template-rows: repeat(5, 150px);
 }
 .task_date {
     border: 1px solid black;
